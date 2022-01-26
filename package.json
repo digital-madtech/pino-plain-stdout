@@ -1,11 +1,9 @@
 {
   "name": "pino-plain-stdout",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Pino transport to write pretty logs to stdout",
-  "main": "./lib.js",
-  "bin": {
-    "pino-plain-stdout": "./lib.js"
-  },
+  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
