@@ -1,0 +1,36 @@
+{
+  "name": "pino-plain-stdout",
+  "version": "1.0.0",
+  "description": "Pino transport to write pretty logs to stdout",
+  "main": "./lib.js",
+  "bin": {
+    "pino-plain-stdout": "./lib.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-madtech/pino-plain-stdout.git"
+  },
+  "keywords": [
+    "pino",
+    "transport",
+    "stdout"
+  ],
+  "author": "MP Engineering <engineering@magicpixel.io>",
+  "license": "MIT",
+  "dependencies": {
+    "pino-abstract-transport": "^0.5.0"
+  },
+  "devDependencies": {
+    "pino": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "homepage": "https://github.com/digital-madtech/pino-plain-stdout#readme",
+  "bugs": {
+    "url": "https://github.com/digital-madtech/pino-plain-stdout/issues"
+  }
+}
