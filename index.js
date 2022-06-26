@@ -26,7 +26,9 @@ function build(opts) {
     }
   }, {
     async close(err) {
-      console.error(err);
+      if (err) {
+        console.error(err);
+      }
     },
   })
 }
