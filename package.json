@@ -1,6 +1,6 @@
 {
   "name": "pino-plain-stdout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Pino transport to write pretty logs to stdout",
   "main": "index.js",
   "type": "commonjs",
